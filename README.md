@@ -1,2 +1,2 @@
-# selenium_on_winserver
+# selenium_online
 remotely control Chrome by selenium on Windows/Linux server through API
