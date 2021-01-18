@@ -1,6 +1,7 @@
 # selenium_online
 在远程服务器上建立 Chrome 并使用 selenium 进行操控，达到代码调试和执行环境分离的作用。  
-使用方法：  
+
+**Linux 使用方法：**  
 
 ```bash
 uvicorn main:app --port 8000 --workers 4
@@ -10,4 +11,7 @@ uvicorn main:app --port 8000 --workers 4
 
 ```bash
 ln -f /usr/local/python3/bin/uvicorn /usr/bin/uvicorn
-```
+```  
+
+**Windows 使用方法：**  
+直接运行 [启动.bat](https://raw.githubusercontent.com/senjianlu/selenium-online/main/%E5%90%AF%E5%8A%A8.bat)，视服务器情况适当修改线程数。
